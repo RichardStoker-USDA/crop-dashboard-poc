@@ -1,10 +1,10 @@
 # Crop Dashboard Platform
 
-A full-stack enterprise platform for serving a data dashboard to multiple users with proper access control. React frontend, FastAPI backend, encrypted SQLite database.
+A full-stack platform for serving a data dashboard to multiple users with proper access control. React frontend, FastAPI backend, encrypted SQLite database.
 
 The dashboard and data pipeline it wraps were created by the [Crop Sensing Group](https://github.com/crop-sensing) at UC Davis - specifically [Audrey Petrosian](https://github.com/ucpetrosian) and [Mina Swintek](https://github.com/mswintek). Their [original repo](https://github.com/crop-sensing/crop-dashboard) handles the agricultural sensor data processing and visualization. This platform provides the infrastructure to serve that dashboard to many stakeholders with authentication, permissions, and admin controls.
 
-This documentation focuses on the platform layer - the enterprise wrapper. The dashboard content itself is theirs to maintain or swap out.
+This documentation focuses on the platform layer - the infrastructure wrapper. The dashboard content itself is theirs to maintain or swap out.
 
 ---
 
