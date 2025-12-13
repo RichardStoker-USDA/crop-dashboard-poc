@@ -140,4 +140,4 @@ crop-dashboard-platform/
 
 ## License
 
-For research and educational use.
+See [LICENSE](LICENSE).
