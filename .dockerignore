@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv
+ENV
+.eggs
+*.egg-info
+.pytest_cache
+
+# Node
+node_modules
+frontend/node_modules
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Local data
+data/
+*.db
+uploads/
+archives/
+
+# Environment files (secrets are in HF Spaces settings)
+.env
+.env.local
+.env.*.local
+
+# Documentation and misc
+*.md
+!README_HF.md
+LICENSE
+docs/
+
+# Build artifacts
+dist/
+build/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db

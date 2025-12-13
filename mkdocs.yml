@@ -1,0 +1,99 @@
+site_name: Crop Dashboard Platform
+site_description: A full-stack React + FastAPI application for data visualization
+site_author: Richard Stoker
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - abbr
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Start: getting-started/quick-start.md
+    - Configuration: getting-started/configuration.md
+  - How I Built This:
+    - Design Choices: how-i-built-this/design-choices.md
+    - Decisions: how-i-built-this/decisions.md
+  - The Stack:
+    - Overview: the-stack/overview.md
+    - Backend: the-stack/backend.md
+    - Frontend: the-stack/frontend.md
+  - Features:
+    - Authentication: features/authentication.md
+    - Admin Panel: features/admin-panel.md
+    - Data Handling: features/data-handling.md
+  - Making It Yours:
+    - Understanding the Code: making-it-yours/understanding-the-code.md
+    - Adding Features: making-it-yours/adding-features.md
+    - Starting Fresh: making-it-yours/starting-fresh.md
+  - Security: security.md
+  - Deployment: deployment.md
+  - Glossary: glossary.md
+
+extra:
+  generator: false
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - stylesheets/custom.css
+
+copyright: Richard Stoker, IT Specialist (Scientific), USDA-ARS

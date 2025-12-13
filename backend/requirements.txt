@@ -1,0 +1,35 @@
+# FastAPI and server
+fastapi==0.124.2
+uvicorn[standard]==0.38.0
+
+# Database
+sqlalchemy==2.0.45
+
+# Pydantic (with email validation)
+pydantic[email]==2.12.5
+pydantic-settings==2.12.0
+
+# Authentication
+python-jose[cryptography]==3.5.0
+passlib==1.7.4
+bcrypt==4.0.1  # DO NOT UPGRADE - passlib incompatible with bcrypt 4.1+
+
+# File handling
+python-multipart==0.0.20
+aiofiles==25.1.0
+
+# Data processing
+pandas==2.3.3
+numpy==2.3.5
+
+# Box integration
+boxsdk==3.12.0  # DO NOT UPGRADE to 10.x - breaking API changes
+
+# Scheduling
+apscheduler==3.11.1
+
+# Rate limiting
+slowapi==0.1.9
+
+# SQLCipher encryption (requires system libsqlcipher-dev)
+sqlcipher3==0.5.3

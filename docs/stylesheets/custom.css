@@ -1,0 +1,20 @@
+/* Add spacing below the site title */
+.md-nav--primary > .md-nav__list {
+    padding-top: 0.5rem;
+}
+
+/* Navigation section headers - make them more distinct */
+.md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    color: var(--md-default-fg-color--light);
+    margin-top: 0.8rem;
+}
+
+/* Center the footer copyright */
+.md-copyright {
+    text-align: center;
+    width: 100%;
+}
