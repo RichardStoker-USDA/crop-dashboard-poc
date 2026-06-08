@@ -2,11 +2,9 @@
 The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.  
 It should not be used in production systems.**
 
-# CSG Flux Dashboard
+# CSG Flux Dashboard (proof-of-concept)
 
-A web-based dashboard for visualizing and managing agricultural sensor data from CSI dataloggers. This platform provides a production-ready interface built around the data processing pipeline developed by the [Crop Sensing Group](https://github.com/crop-sensing) at UC Davis.
-
-The core dashboard logic and sensor data pipeline were created by [Audrey Petrosian](https://github.com/ucpetrosian) and [Mina Swintek](https://github.com/mswintek).
+A web-based dashboard for visualizing and managing agricultural sensor data from CSI dataloggers. This platform provides a production-ready (the start of one) interface built around the data processing pipeline developed by the [Crop Sensing Group](https://github.com/crop-sensing) at UC Davis.
 
 ## Features
 
